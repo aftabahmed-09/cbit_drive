@@ -1,0 +1,31 @@
+.fileItem{
+    height: 55px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-top: 1px solid rgb(219, 219, 219);
+    width: 100%;
+    background-color: rgb(46, 42, 42);
+}
+
+.fileItem>a{
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: burlywood;
+}
+
+.fileItem>a>div{
+    display: flex;
+    align-items: center;
+}
+
+.fileItem>a>div>*{
+    margin: 10px;
+}
+
+.fileItem--left{
+    flex: 1;
+}
+.fileItem>a:hover{
+    color: rgba(255, 255, 255, 0.658);
+    background-color: black;
+}
