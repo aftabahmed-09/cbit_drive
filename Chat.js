@@ -20,8 +20,6 @@ const SendMessage = () =>{
             timestamp: firebase.firestore.FieldValue.serverTimestamp(),
             
         });*/
-
-        
 }
 const Chat = () => {
     return (
